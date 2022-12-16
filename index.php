@@ -75,6 +75,6 @@ session_start();
 
 
 </section>
-<div class="BarraInferior">Copyright &copy; 2020 - Software creado por In. Martin Alfonso Nieto Prada - Todos los derechos reservados.</div>
+<div class="BarraInferior">Copyright &copy; 2023 - Software creado por Caleb Parada Vaca - Todos los derechos reservados.</div>
 </body>
 </html>
