@@ -1,0 +1,92 @@
+*{
+
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+h3{
+	font-family: 'Arial';
+	font-size: 20px;
+	letter-spacing: 1px;
+	width: 100%;
+	background: #273746;
+	padding: 15px;
+	color: #FFF;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+
+
+#container{
+
+	background: #148F77;
+	width: 100%;
+	height: 100vh;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+#container form{
+
+	background: #FFF;
+	width: 400px;
+	padding: 10px;
+}
+
+img {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 120px;
+}
+
+#container form img{
+	margin: 15px auto;
+	text-align: center;
+	display: block;
+}
+#container form input{
+	width: 90%;
+	padding: 5px;
+	font-size: 16px;
+	display: block;
+	margin: 20px auto;
+	border-radius: 5px;
+	border: 1px solid #808B96;
+	text-align: center;
+}
+#container form input[type="submit"]{
+	background: #34495E;
+	padding: 10px;
+	color: #FFF;
+	letter-spacing: 1px;
+	border: 0;
+}
+.alert{
+	font-family: 'Arial';
+	font-size: 16px;
+	text-align: center;
+}
+/*barra inferior*/
+.BarraInferior{
+
+position: fixed;
+font-family: 'Arial';
+font-size: 16px;
+text-align: center;
+color: #FFF;
+bottom: 0;
+width: 100%;
+height: 32px;
+padding-bottom: 16px;
+background: #111;
+background: rgba(0,0,0,.90);
+border-top: 2px solid #f00;
+z-index:2000;
+}
